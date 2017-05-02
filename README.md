@@ -3,6 +3,9 @@ Creating a ray casting engine similar to classic Doom and Wolfenstein in Python.
 
 ## Classes
 
+### Game
+Contains the main game loop and the main class that initiates the game.
+
 ### Player
 The main player class.
 #### Properties
@@ -10,6 +13,11 @@ The main player class.
 `y` Player y position<br />
 `direction` The direction the player is facing<br />
 `pace` Movement velocity<br />
+
+### State
+Handles the game state.<br />
+- Main menu
+- Game
 
 ### PlayerControl
 Handles player keyboard and mouse input
@@ -19,7 +27,4 @@ The Map class
 
 ### Camera
 Handles camera placement
-
-### Game
-Contains the main game loop
 
